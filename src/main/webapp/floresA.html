@@ -446,6 +446,14 @@
 
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <audio id="audioElement" src="Floricienta.mp3" preload="auto" autoplay></audio>
+
+<script>
+    window.onload = function () {
+        let audioElement = document.getElementById("audioElement");
+        audioElement.play(); // Inicia la reproducción del audio automáticamente
+    };
+</script>
     
 </body>
 </html>
