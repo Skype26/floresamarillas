@@ -5,8 +5,10 @@ onload = () => {
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("btnLogin").addEventListener("click", function () {
         let login = document.getElementById("nameFriend").value.trim().toLowerCase(); // Elimina espacios y convierte a minúsculas
-        let audioElement = document.getElementById("audioElement");
-        let audioElementa = document.getElementById("audioElementa");
+        let audioCristina = document.getElementById("audioCristina");
+        let audioSilvana = document.getElementById("audioSilvana");
+        let audioAylin = document.getElementById("audioAylin");
+        let audioMadai = document.getElementById("audioMadai");
 
         if (login === "aylin") { // Compara con el nombre en minúsculas
             setTimeout(function () {

@@ -1,7 +1,7 @@
 // Sincronizar las letras con la canción
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
-
+/*
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
   { text: "At the time", time: 1 },
@@ -56,7 +56,7 @@ function updateLyrics() {
 }
 
 setInterval(updateLyrics, 1000);
-
+*/
 //funcion titulo
 // Función para ocultar el título después de 216 segundos
 function ocultarTitulo() {
