@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = "floresS.html";
         } else {
             // Si el nombre no es ninguno de los anteriores
-            alert("Hazta pa poner tu nombre eres sonsa");
+            alert("Hazta pa poner tu nombre eres sonsa primer letra mayuscula burra");
             //window.location.hre = "error.html"; // Puedes redirigir a una página de error o a otra diferente
         }
     });
